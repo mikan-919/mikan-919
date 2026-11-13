@@ -6,7 +6,7 @@ AI エージェントが書くコードを、型と権限と計測で確かめ�
 
 | 作品 | 確かめ方 | 内容 |
 |---|---|---|
-| [Oriel](https://github.com/mikan-919/oriel) | 権限・計測 | ローカルの Codex をブラウザーから操作し、GitHub Issue と Linear で開発を進めるツール。計画の作成は読み取り専用で、コードの変更には人の承認とリポジトリ側の実行許可の両方が要る。運用中に Durable Objects の読み取り行数を処理ごとに測り、実行中の確認の読み取りを約66%減らした（[記事](https://portfolio.mikan-919.workers.dev/blog/2026-11-13-oriel-cost/)）。[orield](https://crates.io/crates/orield) を crates.io で公開 |
+| [Oriel](https://github.com/mikan-919/oriel) | 権限・計測 | ローカルの Codex をブラウザーから操作し、GitHub Issue と Linear で開発を進めるツール。計画の作成は読み取り専用で、コードの変更には人の承認とリポジトリ側の実行許可の両方が要る。運用中に Durable Objects の読み取り行数をエージェントに処理ごとに測らせ、実行中の確認の読み取りを約66%減らした（[記事](https://portfolio.mikan-919.workers.dev/blog/2026-11-13-oriel-cost/)）。[orield](https://crates.io/crates/orield) を crates.io で公開 |
 | [hibana](https://github.com/mikan-919/hibana) | 型 | 依存型、細分化型、代数的効果を持つ静的型付け言語。細分化型の条件はコンパイル時に Z3 で証明する。インタプリタ、JavaScript、C のどれで実行しても同じ出力になり、WebAssembly にも出力できる |
 | [irisout](https://github.com/mikan-919/irisout) | 計測 | JSX を手書き相当の Vanilla JS にコンパイルする、ランタイムを持たないビルド時コンパイラ。差が 95% 区間で確定しない変更は採用しない。npm で公開 |
 
