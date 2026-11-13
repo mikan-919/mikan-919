@@ -13,7 +13,7 @@
 ### ほかの作品
 
 - [hypharness](https://github.com/mikan-919/hypharness): 目的を課題に分け、複数のエージェントが分担して解き、自身を改良するハーネス
-- [shiro](https://github.com/mikan-919/shiro): 最大4体のエージェントが会話に参加する、ローカル向けの AI チャット兼コーディングエージェント
+- [shiro](https://github.com/mikan-919/shiro): 複数のエージェントが会話に参加する、ローカル向けの AI チャット兼コーディングエージェント
 - [Rhodolite](https://github.com/mikan-919/rhodolite): 関数を跨いで要求を伝播する束縛を言語機能として持つ言語
 - [contmux](https://github.com/mikan-919/contmux): 並列に動く AI エージェントの作業環境をコンテナ単位で隔離する TUI
 
